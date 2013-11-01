@@ -10,19 +10,17 @@
 
 @implementation VCPerson
 
-- (id)initWithName:(NSString *)name dateOfBirth:(NSDate *)dateOfBirth placeOfBirth:(NSString *)placeOfBirth
-{
+- (id)initWithName:(NSString *)name dateOfBirth:(NSDate *)dateOfBirth placeOfBirth:(NSString *)placeOfBirth {
     
     if (self = [super init]){
         
-        self.name = name;
-        self.dateOfBirth = dateOfBirth;
-        self.placeOfBirth = placeOfBirth;
+        _name = [name copy];
+        _dateOfBirth = dateOfBirth;
+        _placeOfBirth = [placeOfBirth copy];
         
     }
     
     return self;
-    
 }
 
 @end

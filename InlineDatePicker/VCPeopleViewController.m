@@ -74,7 +74,7 @@ static NSString *kSegueIdentifier = @"addPerson";
     
     [self.persons addObject:p1];
     [self.persons addObject:p2];
-    }
+}
 
 - (void)didReceiveMemoryWarning {
     

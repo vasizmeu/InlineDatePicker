@@ -21,8 +21,8 @@
 		515C5F0A181941C30056C43C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 515C5F08181941C30056C43C /* InfoPlist.strings */; };
 		515C5F0C181941C30056C43C /* InlineDatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 515C5F0B181941C30056C43C /* InlineDatePickerTests.m */; };
 		515C5F1718194BCB0056C43C /* VCAddPersonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515C5F1618194BCB0056C43C /* VCAddPersonTableViewController.m */; };
-		51B12C82181FF9FA00D1E3DA /* VCPeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B12C81181FF9FA00D1E3DA /* VCPeopleViewController.m */; };
 		51B12C85181FFA9800D1E3DA /* VCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B12C84181FFA9800D1E3DA /* VCPerson.m */; };
+		51C513F21823CFCF00C66C41 /* VCPeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C513F11823CFCF00C66C41 /* VCPeopleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +55,10 @@
 		515C5F0B181941C30056C43C /* InlineDatePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InlineDatePickerTests.m; sourceTree = "<group>"; };
 		515C5F1518194BCB0056C43C /* VCAddPersonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCAddPersonTableViewController.h; sourceTree = "<group>"; };
 		515C5F1618194BCB0056C43C /* VCAddPersonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCAddPersonTableViewController.m; sourceTree = "<group>"; };
-		51B12C80181FF9FA00D1E3DA /* VCPeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCPeopleViewController.h; path = ../VCPeopleViewController.h; sourceTree = "<group>"; };
-		51B12C81181FF9FA00D1E3DA /* VCPeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCPeopleViewController.m; path = ../VCPeopleViewController.m; sourceTree = "<group>"; };
 		51B12C83181FFA9800D1E3DA /* VCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCPerson.h; sourceTree = "<group>"; };
 		51B12C84181FFA9800D1E3DA /* VCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCPerson.m; sourceTree = "<group>"; };
+		51C513F01823CFCF00C66C41 /* VCPeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCPeopleViewController.h; sourceTree = "<group>"; };
+		51C513F11823CFCF00C66C41 /* VCPeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCPeopleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +121,8 @@
 				515C5EEF181941C30056C43C /* VCAppDelegate.h */,
 				515C5EF0181941C30056C43C /* VCAppDelegate.m */,
 				515C5EF2181941C30056C43C /* Main.storyboard */,
-				51B12C80181FF9FA00D1E3DA /* VCPeopleViewController.h */,
-				51B12C81181FF9FA00D1E3DA /* VCPeopleViewController.m */,
+				51C513F01823CFCF00C66C41 /* VCPeopleViewController.h */,
+				51C513F11823CFCF00C66C41 /* VCPeopleViewController.m */,
 				515C5F1518194BCB0056C43C /* VCAddPersonTableViewController.h */,
 				515C5F1618194BCB0056C43C /* VCAddPersonTableViewController.m */,
 				51B12C83181FFA9800D1E3DA /* VCPerson.h */,
@@ -261,10 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				51B12C85181FFA9800D1E3DA /* VCPerson.m in Sources */,
-				51B12C82181FF9FA00D1E3DA /* VCPeopleViewController.m in Sources */,
 				515C5EED181941C30056C43C /* main.m in Sources */,
 				515C5EF1181941C30056C43C /* VCAppDelegate.m in Sources */,
 				515C5F1718194BCB0056C43C /* VCAddPersonTableViewController.m in Sources */,
+				51C513F21823CFCF00C66C41 /* VCPeopleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

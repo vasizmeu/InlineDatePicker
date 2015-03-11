@@ -23,6 +23,8 @@
 		515C5F1718194BCB0056C43C /* VCAddPersonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515C5F1618194BCB0056C43C /* VCAddPersonTableViewController.m */; };
 		51B12C85181FFA9800D1E3DA /* VCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B12C84181FFA9800D1E3DA /* VCPerson.m */; };
 		51C513F21823CFCF00C66C41 /* VCPeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C513F11823CFCF00C66C41 /* VCPeopleViewController.m */; };
+		59B40C871AB09F12004B9B1E /* dynamicCells.png in Resources */ = {isa = PBXBuildFile; fileRef = 59B40C861AB09F12004B9B1E /* dynamicCells.png */; };
+		59B40C891AB09F1C004B9B1E /* staticCells.png in Resources */ = {isa = PBXBuildFile; fileRef = 59B40C881AB09F1C004B9B1E /* staticCells.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		51B12C84181FFA9800D1E3DA /* VCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCPerson.m; sourceTree = "<group>"; };
 		51C513F01823CFCF00C66C41 /* VCPeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCPeopleViewController.h; sourceTree = "<group>"; };
 		51C513F11823CFCF00C66C41 /* VCPeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCPeopleViewController.m; sourceTree = "<group>"; };
+		59B40C861AB09F12004B9B1E /* dynamicCells.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dynamicCells.png; sourceTree = "<group>"; };
+		59B40C881AB09F1C004B9B1E /* staticCells.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = staticCells.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,8 @@
 		515C5EE7181941C30056C43C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				59B40C861AB09F12004B9B1E /* dynamicCells.png */,
+				59B40C881AB09F1C004B9B1E /* staticCells.png */,
 				515C5EE8181941C30056C43C /* InlineDatePicker-Info.plist */,
 				515C5EE9181941C30056C43C /* InfoPlist.strings */,
 				515C5EEC181941C30056C43C /* main.m */,
@@ -241,7 +247,9 @@
 			files = (
 				515C5EF9181941C30056C43C /* Images.xcassets in Resources */,
 				515C5EEB181941C30056C43C /* InfoPlist.strings in Resources */,
+				59B40C891AB09F1C004B9B1E /* staticCells.png in Resources */,
 				515C5EF4181941C30056C43C /* Main.storyboard in Resources */,
+				59B40C871AB09F12004B9B1E /* dynamicCells.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

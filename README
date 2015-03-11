@@ -1,2 +1,9 @@
 This project demonstrates how to use in-line date pickers with both dynamic and static UITableView cells.
 
+Dynamic cells:
+
+![alt tag](https://github.com/costescv/InlineDatePicker/blob/master/InlineDatePicker/dynamicCells.png)
+
+Static cells:
+
+![alt tag](https://github.com/costescv/InlineDatePicker/blob/master/InlineDatePicker/staticCells.png)

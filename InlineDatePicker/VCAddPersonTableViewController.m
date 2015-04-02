@@ -81,15 +81,13 @@
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    CGFloat height = self.tableView.rowHeight;
-    
-    if (indexPath.row == kDatePickerIndex){
-        
-        height = self.datePickerIsShowing ? kDatePickerCellHeight : 0.0f;
+    if (indexPath.row == kDatePickerIndex && self.datePickerIsShowing == NO){
+        //hide date picker
+        return 0.0f;
         
     }
     
-    return height;
+    return [super tableView:tableView heightForRowAtIndexPath:indexPath];
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
